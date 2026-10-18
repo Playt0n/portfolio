@@ -20,9 +20,9 @@ body {
     color: var(--text);
     background: var(--bg);
     line-height: 1.6;
-    -web-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
-h1, h2, h3 { line-height: 1.25; margin: 0 0.5em;}
+h1, h2, h3 { line-height: 1.25; margin: 0 0 0.5em;}
 p {margin: 0 0 1em;}
 a {color: var(--accent); text-decoration: none;}
 a:hover {color: var(--accent-dark);}
@@ -51,7 +51,6 @@ img {max-width: 100%; display: block;}
 }
 .btn--primary:hover {
     background: var(--accent-dark);
-    color: #fff;
     transform: translateY(-1px);
 }
 .btn--ghost {
